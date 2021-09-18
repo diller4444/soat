@@ -1,0 +1,580 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.fon{
+  background-image: url("./background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.cap{
+    display: flex;
+    align-items: center;
+}
+.ong{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    background: #3DB2FF;
+    color: #fff;
+    width: 220px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+}
+.link{
+    margin-left: 30px;
+}
+.link a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 15px;
+}
+.logo h1{
+    font-size: 2rem;
+    color: #fff;
+}
+.login{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    margin-right: 20px;
+}
+.we{
+    font-size: 4rem;
+    color: #fff;
+    font-weight: 550;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding-top: 150px;
+}
+.know{
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 400;
+    padding-top: 30px;
+}
+.button{
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 150px;
+}
+.get{
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    background: #3DB2FF;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+}
+.learn{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    color: #fff;
+    box-shadow: 0 0 0 2px #fff inset;
+    border: none;
+    background-color: transparent;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    background: transparent;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.fonback{
+    background: #252B42;
+}
+.back{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.back p {
+    padding-top: 10px;
+    color: #fff;
+}
+.fonindustry{
+    background: #8EC2F2;
+}
+.tepa{
+    text-align: center;
+    padding-top: 50px;
+}
+.tepa h1{ 
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 550;
+}
+.tepa p{
+    color: #fff;
+    font-size: 17px;
+    padding-top: 20px;
+}
+.cap_4{
+    width: 500px;
+    height: 27s0px;
+    background: #fff;
+    padding: 20px;
+}
+.ong_4{
+    width: 500px;
+    height: 270px;
+    background: #fff;
+    padding: 20px;
+}
+.pas{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.img h1{
+    color: #252B42;
+    font-size: 1.5rem;
+
+}
+.des {
+    font-size: 17px;
+    color: #555;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.industry{
+    padding-bottom: 100px;
+}
+.icons{
+    color: #FFE459;
+    padding-top: 10px;
+}
+.this{
+    font-size: 15px;
+    color: #444;
+    padding-top: 10px;
+}
+.tepa_1{
+    text-align: center;
+    padding-top: 50px;
+    color: #fff;
+}
+.fonmarjon{
+    background: #252B42;
+}
+.tepa_1 h1{
+    font-size: 2.5rem;
+}
+.tepa_1 p{
+    padding-top: 20px;
+    font-size: 17px;
+}
+.pas_1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.div_1{
+    width: 400px;
+    height: 500px;
+    background-image: url('./media\ bg-cover.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 1.5rem;  
+}
+.div_2{
+    width: 400px;
+    height: 500px;
+    background-image: url('./media\ bg-cover\ \(1\).svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 1.5rem;
+}
+.div_3{
+    width: 400px;
+    height: 500px;
+    background-image: url('./media\ bg-cover\ \(2\).svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 1.5rem;
+}
+.div_4{
+    width: 400px;
+    height: 500px;
+    background-image: url('./media\ bg-cover\ \(3\).svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 1.5rem;
+}
+.byttt{
+    width: 200px;
+    height: 40px;
+    background: #3DB2FF;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
+}
+
+.life{
+    color: #fff;
+    font-size: 20px;
+}
+.tepa_2{
+    text-align: center;
+}
+.fonpricing{
+    background: #252B42;
+}
+.pas_2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+.cap_5{
+    width: 350px;
+    height: 700px;
+    background: #fff;
+    border-radius: 10px;
+}
+.orta_5{
+    width: 350px;
+    height: 700px;
+    background: #fff;
+    border-radius: 10px;
+}
+.ong_5{
+    width: 350px;
+    height: 700px;
+    background: #fff;
+    border-radius: 10px;
+}
+.tepa_5{
+    text-align: center;
+    margin-top: 20px;
+   
+}
+.tepa_5 h2{
+    font-size: 22px;
+    color: #000;
+}
+.tepa_5 p{
+    color: #555;
+    margin-top: 30px;
+    font-weight: 600;
+}
+.dolor{
+    color: #3DB2FF;
+    margin-top: 50px;
+}
+.dp{
+    color: #8EC2F2;
+}
+.free{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background: #3DB2FF;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.cap_6{
+    padding: 0 1rem;
+    margin-top: 50px;
+}
+
+.fonmake{
+    background-image: url("./#contact-cover.1.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.make{
+    margin-top: 100px;
+}
+.make p{
+    font-size: 20px ;
+    font-weight: 550;
+}
+.make h1{
+    font-size: 2.5rem;
+}
+.inpuy input{
+    width: 300px;height: 40px;
+    background: #F9F9F9;
+    box-shadow: 0 0 0 2px #DDDDDD inset;
+    border: none;
+    padding-left: 10px;
+}
+.inpuyy input{
+    width: 300px;height: 40px;
+    background: #F9F9F9;
+    box-shadow: 0 0 0 2px #DDDDDD inset;
+    border: none;
+    padding-left: 10px;
+}
+.input textarea{
+    width: 600px;
+    height: 200px;
+    margin-top: 30px;
+}
+.bnnt{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background: #3DB2FF;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    margin-top: 20px;
+}
+.foncaontact{
+    background: #F9F9F9;
+    padding-bottom: 30px;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.ong_7 button{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+    background: #3DB2FF;
+    color: #fff;
+}
+.cap_7 p{
+    margin-top: 10px;
+}
+.fonlegal{
+    background: #252B42;
+}
+.legal{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.legaldiv p{
+    margin-top: 10px;
+    color: #fff;
+}
+.zz{
+    font-size: 20px;
+}
+.divv{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+.divv p{
+    margin-left: 10px;
+}
+.tepa_2 h1{
+    color: #fff;
+}
+.tepa_2 {color: #fff;padding-top: 20px;}
+.divv_1,.divv_2,.divv_3,.divv_4{
+    padding-top: 330px;
+}
+.life{
+    margin-top: 20px;
+}
+.tex{
+    color: #fff;
+}
+.fa-bars{
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+.fa-search{
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    margin-right: 20px;
+}
+.fa-shopping-cart{
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    margin-right: 20px;
+}
+@media(max-width:1200px){
+    .container{
+        padding: 2rem;
+    }
+    .pas_1{
+        flex-direction: column;
+    }
+    .div_2{
+        margin-top: 30px;
+    }
+    .div_3{
+        margin-top: 30px;
+    }
+    .div_4{
+        margin-top: 30px;
+    }
+    .cap_5,.orta_5,.ong_5{
+        width: 100%;
+        margin: 0 2rem;
+    }
+    .orta_5{
+        margin-top: 40px;
+    }
+    .ong_5{margin-top: 40px;}
+    .pas_2{
+        flex-direction: column;
+        margin-right: 50px;
+    }
+}
+@media(max-width:1100px){
+    .pas{
+        flex-direction: column;
+        text-align: center;
+    }
+    .ong_4{
+        margin-top: 40px;
+        width: 100%;
+    }
+    .cap_4{
+        width: 100%;
+    }
+}
+@media(max-width:1000px){
+    
+  .login,.btn{
+      display: none;
+  }
+  
+}
+@media(max-width:800px){
+    .we{
+        font-size: 3rem;
+    }
+    .input textarea{
+        width: 100%;
+    }
+    .inpuyy input{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .inpuy input{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .make{
+        text-align: center;
+        padding: 2rem;
+    }
+    .contact{
+        flex-direction: column;
+        text-align: center;
+    }
+    .contact button{
+        margin-top: 30px;
+    }
+    .div_1,.div_2,.div_3,.div_4{
+        width: 100%;
+    }
+    .back{
+        flex-direction: column;
+    }
+    .ong_2{
+        margin-top: 20px;
+    }
+    .orta_2{
+        margin-top: 20px;
+    }
+  
+}
+@media(max-width:700px){
+    .legal{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .cap_4,.ong_4{
+        height: 100%;
+    }
+    .navbar{
+        flex-direction: column;
+        text-align: center;
+    }
+    .button{
+        flex-direction: column;
+        align-items: center;
+    }
+    .learn{
+        margin-top: 30px;
+        margin-right: 10px;
+    }
+    .legaldiv{margin-top: 30px;}
+    .link{
+        position: absolute;
+        top: 10%;
+        left: 0;
+        right: 0;
+        background: #252B42;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    .link a{
+        font-size: 2rem;
+        margin: 2.5rem 2rem;
+        display: block;
+    }
+   .link.active{
+       clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+   }
+    .fa-bars,.fa-search{
+        display: initial;
+    }
+    .fa-shopping-cart{
+        display: block;
+    }
+}
+@media(max-width:500px){
+    .we{
+        font-size: 2rem;
+    }
+    .logo h1{
+        font-size: 1.5rem;
+    }
+    .fa-shopping-cart,.fa-search,.fa-bars{
+        font-size: 1.5rem;
+    }
+}
+@media(max-width:450px){
+    .divv p{
+        font-size: 12px;
+    }
+}
